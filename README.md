@@ -53,15 +53,15 @@ $ pip install -i https://test.pypi.org/simple/ cipher_kl3045
 
     Examples
     --------
-    >>> import cipher_kl3045
+    >>> from cipher_kl3045 import cipher_kl3045
     >>> cipher_kl3045.cipher('bob', 1) #encrypt is True by default
     'cpc'
 
-    >>> import cipher_kl3045
+    >>> from cipher_kl3045 import cipher_kl3045
     >>> cipher_kl3045.cipher('fun', 1, encrypt = False) #decryption function
     'etm'
 
-    >>> import cipher_kl3045
+    >>> from cipher_kl3045 import cipher_kl3045
     >>> cipher_kl3045.cipher('b$b', 1) #non-alphabet characters will not be processed
     'c$c'
 
