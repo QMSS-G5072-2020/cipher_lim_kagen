@@ -1,6 +1,6 @@
 def cipher(text, shift, encrypt=True):
     """
-    Concatenates two pandas categoricals.
+    Encrypts a given input alphabetical text string.
 
     Parameters (Inputs)
     ----------
