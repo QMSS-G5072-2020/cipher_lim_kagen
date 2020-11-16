@@ -3,7 +3,7 @@ from cipher_kl3045 import cipher_kl3045
 import pytest
 
 def test_version():
-    assert __version__ == '0.1.0'
+    assert __version__ == '0.1.3'
 
 def test_sentence_with_spaces():
     result = cipher_kl3045.cipher('Bob hit the prince', 1)
